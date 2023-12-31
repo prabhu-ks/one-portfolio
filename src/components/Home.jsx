@@ -13,12 +13,12 @@ const Home = () => {
 <div className='flex flex-col justify-center h-full '>
                     <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hi.. I am Kshitij Prabhu</h2>
                     <p className=' text-gray-500 py-4'>
-                        Dynamic and forward-thinking Information Systems specialist, graduating from Northeastern University, with a passion for
+                        A Dynamic and forward-thinking Information Systems specialist, graduating from Northeastern University, with a passion for
                         bridging the gap between data-driven insights and real-world business challenges.
                     </p>
                     <div>
                         <Link to="projects" smooth duration={500} className='text-white group w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
-                            Portfolio
+                            Projects
                             <span className='group-hover:rotate-90 duration-200'>
 
                                 <TbArrowNarrowRight size={25} className='ml-1' />
