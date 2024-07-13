@@ -1,50 +1,51 @@
 import React from "react";
 import aws from "../assets/portfolio/aws.jpg";
-import notes from "../assets/portfolio/notes.jpg";
+import notes from "../assets/portfolio/notes.webp";
 import crime from "../assets/portfolio/crime.jpg";
 import fraud from "../assets/portfolio/fraud.jpg";
-import stock from "../assets/portfolio/stock.jpeg";
-import hospital from "../assets/portfolio/hospital.jpg";
+import stock from "../assets/portfolio/stock.webp";
+import jenkins from "../assets/portfolio/jenkins.webp";
 
 const Projects = () => {
     const portfolios = [
         {
             id: 1,
-            src: aws,
-            text: "StreamFlow: Auto-Deploy & Integration",
-            href: "https://github.com/prabhu-ks/webapp"
+            src: jenkins,
+            text: "CloudOps Automation Tool",
+            href: "https://github.com/prabhu-ks/ami-jenkins"
         },
         {
             id: 2,
+            src: aws,
+            text: "CloudFusion CI/CD",
+            href: "https://github.com/prabhu-ks/webapp"
+        },
+        {
+            id: 3,
             src: fraud,
             text: "Fraudulent Transaction Classification",
             href: "https://github.com/prabhu-ks/FraudTransactionDetection"
             
         },
         {
-            id: 3,
+            id: 4,
             src: crime,
             text: "Crime Rate Prediction",
             href: "https://github.com/prabhu-ks/CrimeAnalyticsNYPD"
         },
         {
-            id: 4,
+            id: 5,
             src: stock,
             text: "Stock Analyzer",
             href: "https://github.com/Kprabhu2807/Stock-Price-Prediction"
         },
         {
-            id: 5,
+            id: 6,
             src: notes,
             text: "MyNotes",
             href: "https://github.com/prabhu-ks/MyNotes"
         },
-        {
-            id: 6,
-            src: hospital,
-            text: "Hospital Management System",
-            href: "https://github.com/prabhu-ks/HospitalManagementSystem"
-        },
+
     ];
 
     return (

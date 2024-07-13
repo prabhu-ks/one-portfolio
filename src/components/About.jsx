@@ -8,8 +8,7 @@ const About = () => {
           <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
         </div>
         <p className='text-xl mt-20' >
-          As a Master of Science in Information Systems student at Northeastern University, I aspire to leverage data to drive strategic decision-making and create impactful solutions. With a strong background in information systems and a passion for data analysis and machine learning, I possess the knowledge and expertise to tackle complex data challenges and deliver valuable insights.
-
+        Dynamic Data Science and DevOps Engineer with expertise in building and optimizing CI/CD pipelines and cloud infrastructure using Docker, Kubernetes, AWS, and Terraform. Proven ability to integrate DevOps practices within data science workflows to enhance operational efficiencies, accelerate deployment cycles, and improve scalability
         </p>
 
         <br />
